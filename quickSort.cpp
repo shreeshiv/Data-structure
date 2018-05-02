@@ -30,7 +30,7 @@ return i;
 }
 
 void quickSort(int arr[],int l,int r){
-while(l<r){
+if(l<r){
 
 int pi=parti(arr,l,r);
 quickSort(arr,l,pi-1);
